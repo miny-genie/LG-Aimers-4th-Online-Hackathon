@@ -71,7 +71,7 @@ model = DecisionTreeClassifier()
 
 model.fit(x_train.fillna(0), y_train)
 
-
+# 
 def get_clf_eval(y_test, y_pred=None):
     confusion = confusion_matrix(y_test, y_pred, labels=[True, False])
     accuracy = accuracy_score(y_test, y_pred)
