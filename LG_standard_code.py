@@ -71,7 +71,7 @@ model = DecisionTreeClassifier()
 
 model.fit(x_train.fillna(0), y_train)
 
-# 
+
 def get_clf_eval(y_test, y_pred=None):
     confusion = confusion_matrix(y_test, y_pred, labels=[True, False])
     accuracy = accuracy_score(y_test, y_pred)
@@ -100,4 +100,4 @@ df_sub = pd.read_csv("submission.csv")
 df_sub["is_converted"] = test_pred
 
 # 제출 파일 저장
-# df_sub.to_csv("submission.csv", index=False)
+df_sub.to_csv("submission.csv", index=False)
