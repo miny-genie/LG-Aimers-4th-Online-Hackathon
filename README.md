@@ -9,16 +9,26 @@ This repository contains the IPython Notebook (ipynb) files from the 4th LG Aime
 
 ## Code
 ### 1_Import Dataset and Libraries
-( To explain later about the direction and approach perspectives. )
+- catboost ver.1.1.1
+- pycountry ver.22.1.10
+- scikit-learn ver.1.2.2
+- optuna ver.3.2.0
 
 ### 2_Data Preprocessing
-- Data Imputation / Data Cleaning
+- Data Imputation
+- Data Cleaning
  
 ### 3_Feature Engineering
-- Processing(derived variables) / Encoding / Outlier Removal / Normalization
+- Processing(derived variables)
+- Encoding
+- Outlier Removal
+- Normalization
 
 ### 4_Modeling
-- Drop Features(columns) / Hyperparameter Tuning / Modeling(catboost)
+- Drop Features(columns)
+- Hyperparameter Tuning
+- Modeling(catboost)
 
 ### 5_Scoring
-- Feature Importance(feature_importances_, permutation_importance) / K-Fold Cross Validation
+- Feature Importance(feature_importances_, permutation_importance)
+- K-Fold Cross Validation
